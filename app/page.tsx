@@ -12,8 +12,8 @@ export default function HolographicCardApp() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 p-4">
-      <img src="/placeholder-37azn.png" alt="" className="hidden" />
-      <img src="/rainbow-holographic-mesh.png" alt="" className="hidden" />
+      <img src="./placeholder-37azn.png" alt="" className="hidden" />
+      <img src="./rainbow-holographic-mesh.png" alt="" className="hidden" />
 
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-8">

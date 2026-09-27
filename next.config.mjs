@@ -1,5 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  // Static export for GitHub Pages. Remove `basePath` when deploying to a
+  // root domain (e.g. Vercel).
+  output: 'export',
+  basePath: '/holographic-profile-app',
   eslint: {
     ignoreDuringBuilds: true,
   },
